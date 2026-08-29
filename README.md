@@ -2,12 +2,12 @@
 
 ## Overview
 
-This project implements an overlapping `001` sequence detector using a
+This project implements an `001` sequence detector using a
 Finite State Machine (FSM) in synthesizable Verilog HDL.
 
 The detector monitors a serial input stream and asserts the `detected`
 output whenever the sequence `001` is detected. The design supports
-overlapping sequence detection.
+sequence detection.
 
 ## Sequence
 
@@ -30,7 +30,7 @@ S2:	Consecutive 00 detected
 When the FSM is in S2 and receives 1, the sequence 001 is detected.
 
 Design Features:->
-Overlapping sequence detection
+sequence detection
 FSM-based RTL design
 Synthesizable Verilog HDL
 Synchronous state transitions
